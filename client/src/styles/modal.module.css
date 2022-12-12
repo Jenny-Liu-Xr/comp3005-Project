@@ -1,0 +1,15 @@
+.modal {
+  position: relative;
+  background-color: white;
+  /* box-shadow */
+  box-shadow: 0 1px 10px 1px rgb(0 0 0 / 10%);
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.modalCloseIcon {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}

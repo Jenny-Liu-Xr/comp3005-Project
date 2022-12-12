@@ -1,0 +1,107 @@
+.container {
+  padding: 50px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.detail {
+  display: flex;
+  padding: 20px 16px;
+  background-color: #ffffff;
+}
+
+.detailLeft {
+  flex: 1;
+}
+
+.detailRight {
+  flex: 1;
+  margin: 0 100px;
+}
+
+.detailImg {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.detailCategory {
+  margin-top: 10%;
+  color: #6c727f;
+}
+
+.detailName {
+  color: #535353;
+  font-size: 25px;
+  margin: 15px 0 18px 0;
+  font-weight: 600;
+}
+
+.detailPrice {
+  display: flex;
+  align-items: center;
+  color: #121826;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.detailIntro {
+  margin: 20px 0 40px;
+  color: #6c727f;
+  line-height: 25px;
+}
+
+.tag {
+  font-size: 12px;
+  padding: 8px 10px;
+  color: #db5138;
+  background-color: #f9e7e4;
+  border-radius: 4px;
+  margin-left: 10px;
+  font-weight: normal;
+}
+
+.detailEditBtn {
+  margin-left: 20px;
+}
+
+.buttonGroup {
+  display: inline-flex;
+  align-items: center;
+}
+
+.buttonGroup > button:first-child {
+  min-width: 20px;
+  padding: 0 15px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px 0 0 4px;
+}
+
+.buttonGroup > div {
+  flex: 1;
+  background-color: #007FFF;
+  padding: 0 0.59em;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.buttonGroup > button:last-child {
+  min-width: 20px;
+  padding: 0 15px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 0 4px 4px 0;
+}

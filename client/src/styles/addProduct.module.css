@@ -1,0 +1,65 @@
+.container {
+  padding: 50px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.addForm {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.formRow {
+  display: flex;
+}
+
+.formRow > div {
+  flex: 1;
+}
+
+/* the second div works */
+.formRow > div + div {
+  margin-left: 10px;
+}
+
+.imagePreview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 220px;
+  margin: 0 auto 20px;
+  border-radius: 5px;
+  border: 2px dashed #e1e1e1;
+}
+
+.imagePreviewImg {
+  color: #e5e5e5;
+  font-size: 30px;
+}
+
+.imagePreviewText {
+  margin-top: 10px;
+  color: #6c727f;
+}
+
+.uploadBtn {
+  /*position: absolute;*/
+  /*bottom: 4px;*/
+  /*right: 4px;*/
+  padding: 6px 10px;
+  min-width: auto;
+}

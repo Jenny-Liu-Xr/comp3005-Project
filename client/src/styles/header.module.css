@@ -1,0 +1,116 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: #007FFF;
+  padding: 10px 40px;
+}
+
+.headerInner {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.logoIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.logoFontLarge {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.logoFontLargeMobile {
+  display: none;
+  font-size: 20px;
+}
+
+.logoFontSmall {
+  display: inline-block;
+  transform: scale(0.6);
+  vertical-align: -3px;
+}
+
+.searchWrapper {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 2px;
+  padding: 8px 10px;
+  margin-left: 50px;
+  width: 350px;
+  color: #afafaf;
+}
+
+.searchInput {
+  flex: 1;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.rightItem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.cart {
+  cursor: pointer;
+}
+
+.userItem {
+  margin-left: 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.badge {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+  text-align: center;
+  /* text-align! */
+  line-height: 15px;
+  position: absolute;
+  left: 15px;
+  top: -5px;
+}
+
+.rightItemText {
+  margin-left: 10px;
+}
+
+.rightItemPriceText {
+  margin-left: 10px;
+}
+
+.searchWrapperMobile {
+  display: none;
+  align-items: center;
+  background-color: white;
+  border-radius: 2px;
+  padding: 8px 10px;
+  margin: 20px auto 0px;
+  width: 100%;
+  color: #afafaf;
+}
